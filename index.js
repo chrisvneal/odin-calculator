@@ -18,7 +18,3 @@ let myMath = {
     return myMath[operator](a, b);
   }
 };
-
-let { calculate } = myMath;
-
-console.log(calculate("subtract", 4, 5));
